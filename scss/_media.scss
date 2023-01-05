@@ -1,0 +1,746 @@
+.header {
+  &__mobile {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    max-width: 300px;
+    width: 100%;
+    background-color: #161522;
+    padding: 30px;
+    z-index: 20;
+    opacity: 0;
+    transform: translateX(200%);
+    visibility: hidden;
+    transition: all 0.5s ease;
+
+    &.active {
+      transform: translateX(0);
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .close-btn {
+      right: 30px;
+      top: 30px;
+      position: absolute;
+      width: 28px;
+      height: 28px;
+      cursor: pointer;
+
+      svg {
+        width: 100%;
+        height: 100%;
+        stroke: #fff;
+      }
+    }
+
+
+
+    .header__right {
+      display: block;
+    }
+
+    .project-balance {
+      margin-top: 20px;
+
+      &__number {
+        font-size: 18px;
+      }
+    }
+
+    .mobile-wrapper {
+      display: flex;
+      margin-top: 20px;
+      column-gap: 15px;
+    }
+
+    .button--header-connect {
+      margin-top: 20px;
+    }
+  }
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1280px) {
+  .trading-content {
+  display: grid;
+  grid-template-columns: 288px 1fr;
+  grid-template-rows: 57px auto auto auto auto;
+  grid-gap: 4px;
+}
+
+.trading-header {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.trading-block--trade {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.trading-block--chart {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 100%;
+}
+
+.trading-block--orderbook {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 100%;
+}
+
+.block-column {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.trading-block-wrapper {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  flex-direction: column;
+}
+
+.trading-block--trades {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin-top: -61px;
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 1199px) {
+  .tr {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0;
+  }
+
+  .td {
+    width: 50%;
+    padding: 8px 12px;
+  }
+  .hidden-name {
+    display: block;
+  }
+  .table-header {
+    display: none;
+  }
+  .table-body {
+    border-radius: 14px;
+  }
+
+  .nft-container {
+    gap: 15px;
+    &--four-items {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .table--sales {
+    .table-body {
+      height: 635px;
+    }
+    .td:last-child {
+      display: block;
+    }
+  }
+
+  .table--nft-sale .td:last-child {
+    display: block;
+  }
+
+  .filters-search {
+    width: 300px;
+  }
+
+  .table-drop-wrapper {
+    max-width: 100%;
+    width: 100%;
+    flex: 0 0 100%;
+    margin-top: 15px;
+  }
+
+  .table-drop {
+    padding: 15px;
+  }
+
+  .table-drop-info__btn {
+    margin-top: 10px;
+  }
+
+  .td--mob-static {
+    position: static;
+  }
+
+  .table-action--drop-arrow {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  
+  
+  .header__wrapper {
+    min-height: 60px;
+    .menu {
+      display: none;
+    }
+  }
+
+  .close-btn {
+    display: flex;
+  }
+
+  .logo {
+    width: 150px;
+    height: auto;
+  } 
+
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__item {
+      &:not(:first-child) {
+        margin-top: 16px;
+      }
+    }
+
+    &__link {
+      font-size: 18px;
+    }
+  }
+
+  .header {
+    &__burger {
+      display: flex;
+    }
+    &__settings {
+      position: static;
+    }
+    &__mob-nav {
+      display: block;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+      right: 0;
+      top: 0;
+      max-width: 300px;
+      width: 100%;
+      background-color: #161522;
+      padding: 30px;
+      z-index: 20;
+      opacity: 0;
+      right: -200%;
+      visibility: hidden;
+      transition: all 0.5s ease;
+      &.active {
+        right: 0;
+        opacity: 1;
+        visibility: visible;
+      }
+      .menu {
+        display: flex;
+      }
+    }
+    &__right {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+      margin-top: 16px;
+    }
+    &__settings-icons {
+      position: relative;
+      width: 100%;
+      gap: 16px;
+    }
+
+  }
+
+  .popup--site-settings {
+    position: fixed;
+    top: 50%;left: 50%;
+    right: unset;
+    transform: translate(-50%, -50%);
+    right: unset;
+  }
+
+  .top-bg-title {
+    font-size: 42px;
+  }
+
+  .descr {
+    font-size: 18px;
+  }
+
+  .user-top-icon {
+    width: 90px;
+    height: 90px;
+    margin-top: -45px;
+    &+* {
+      margin-top: 15px;
+    }
+  }
+
+  .colections-title {
+    font-size: 28px;
+  }
+
+  .colections-details-list {
+    margin-top: 30px;
+  }
+
+  .colections-stat__sum {
+    font-size: 28px;
+  }
+
+  .nft-description {
+    flex: 0 0 100%;
+    &__text {
+      margin-bottom: 30px;
+    }
+  }
+
+  .nft-media {
+    height: 320px;
+  }
+
+  .table-filters {
+    margin-bottom: 30px;
+    &__top {
+      flex-wrap: wrap;
+    }
+    &__group {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      &+.table-filters__group {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .filter-select, .filter-search {
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+  .nft-details {
+    flex-wrap: wrap;
+    justify-content: center;
+    &__properties {
+      flex-basis: 100%;
+    }
+    &__sales {
+      flex-basis: 100%;
+    }
+  }
+
+  .top-bg-content {
+    padding: 25px 0;
+    min-height: 220px;
+    height: auto;
+  }
+
+  .auto-count {
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
+  }
+  .make-proposal {
+    display: flex;
+    flex-wrap: wrap;
+    > div {
+      width: 100%;
+    }
+  }
+  .make-proposal-content {
+    order: 2;
+  }
+  .make-proposal-bar {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .steps-block {
+    padding-top: 0;
+  }
+  .steps {
+    display: none
+  }
+  .steps-block__wrapper {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .steps-info  {
+    max-width: 100%;
+    &--one {
+    margin-left: 0;
+    }
+    &--two {
+      margin-right: 0;
+    }
+    &--three {
+      margin-left: 0;
+      margin-top: 0;
+    }
+    &--four {
+      margin-right: 0;
+      margin-top: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .nft-container {
+    grid-template-columns: repeat(2, 1fr);     
+  }
+
+  .nft-item {
+    padding: 15px;
+    &__bottom {
+      width: 100%;
+    }
+  }
+
+  // .top-bg-content {
+  //   padding: 25px 0;
+  //   min-height: 220px;
+  //   height: auto;
+  // }
+
+  .top-panel {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nft {
+    margin: 25px 0;
+  }
+
+  .nft-top {
+    margin-bottom: 25px;
+  }
+
+  .colections-title {
+    font-size: 26px;
+  }
+
+  .farms-and-pools {
+    margin-top: 25px;
+  }
+
+  .swap-and-limit-section {
+    padding: 25px 0;
+  }
+  .voting-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .voting-content {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+
+
+  .all-balance-list {
+    max-height: 315px;
+  }
+
+  .coin__text {
+    margin-top: 2px;
+  }
+
+  .transfer {
+    padding: 20px 15px;
+  }
+
+  .button, .gradient-btn--medium .gradient-btn__inner, .gradient-btn__inner{
+    height: 42px;
+  }
+
+  .button--big-height {
+    font-size: 16px;
+  }
+
+
+  .table-drop-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+
+  .table-filters {
+    margin-bottom: 15px;
+  }
+
+
+  .nft-description {
+    padding: 15px;
+  }
+
+  .properties-head, .properties-item__detail{
+    padding: 15px;
+  } 
+
+  .top-bg-title {
+    font-size: 32px;
+    padding-right: 0;
+  }
+
+  .descr {
+    font-size: 16px;
+  }
+   
+  .diagram {
+    position: relative;
+    padding: 15px;
+    &__info {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    &__count-number {
+      font-size: 25px;
+    }
+    &__filter {
+      margin-top: 10px;
+    }
+    &__zoom {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+  }
+
+  .panel-btn__text +.panel-btn__icon, .panel-btn__icon + .panel-btn__text {
+    margin-left: 10px;
+  }
+
+  .nft-item-price__group-second-value {
+    font-size: 16px;
+  }
+
+  .colections-details-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  .colections-stat {
+    margin-bottom: 0;
+  }
+
+  .switch {
+    margin-bottom: 20px;
+  }
+
+  .auto-count__wrapper {
+    padding: 15px;
+  }
+  .got-suggestion-section {
+    padding: 30px 0;
+  }
+  .voting {
+    padding-bottom: 0;
+  }
+  .proposals-nav {
+    &__item {
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+  .nft-container {
+    grid-template-columns: repeat(1, 1fr);     
+  }
+
+  .footer__logo {
+    display: none;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .footer__bottom {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+
+
+  .table-arrow {
+    display: none;
+  }
+
+  .collection-panel {
+    display: block;
+    &__search {
+      width: 100%;
+      margin-top: 10px;
+    }
+    &--df {
+      display: flex;
+    }
+  }
+  .got-suggestion {
+    grid-template-columns: repeat(1, 1fr);
+    &__icon {
+      margin: 0 auto;
+      max-width: 250px;
+    }
+  }
+}
+
+ @media screen and (max-width: 600px) {
+    .trading-content {
+    display: flex;
+    flex-direction: column;
+    // flex-wrap: wrap;
+    grid-gap: 4px;
+  }
+
+
+  .trading-block--trade {
+    width: 100%;
+  }
+
+  .trading-block--chart {
+    width: 100%;
+  }
+
+  .trading-block--orderbook {
+    width: 100%;
+  }
+
+  .block-column {
+    width: 100%;
+  }
+
+  .trading-block-wrapper {
+    flex-direction: column;
+
+    .switch  {
+      flex-direction: column;
+    }
+  }
+
+  .trading-block--trades {
+    width: 100%;
+    margin-top: 0;
+  }
+  .trading-block {
+    width: 100%;
+  }
+
+  .trading-block--switch {
+    height: auto;
+  }
+  .trading-header {
+    width: 100%;
+  }
+  .trading-block-header__title {
+    font-size: 14px;
+  }
+  .block-column {
+    height: auto;
+  }
+  .trading-block--footer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 475px) {
+
+
+
+  .td {
+    width: 100%;
+  }
+
+  .table-filters__group {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .popup--site-settings {
+    max-width: calc(100% - 20px);
+  }
+  .buttons-tab--transactions-speed {
+    grid-template-columns: 1fr 1fr;
+  }
+} 
+
+@media screen and (max-width: 438px) {
+  .footer__line {
+    bottom: 135px;
+  }
+
+ 
+}
+
+@media screen and (max-width: 415px) {
+  
+  .header__mobile {
+    max-width: 100%;
+  }
+
+  .transfer{
+    .transfer-fields__col {
+      width: calc(100% - 8px);
+    }
+  } 
+
+  .switch {
+    width: 100%;
+    &__btn {
+      font-size: 12px;
+    }
+  }
+
+  .switch {
+    width: 100%;
+    &--toggle {
+      width: auto;
+    }
+  }
+
+  .table-filters__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+  }
+}

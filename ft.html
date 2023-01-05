@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Cleandefi</title>
+</head>
+
+<body class="dark">
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__wrapper  ">
+        <div class="header__left">
+          <div class="logo">
+            <a class="logo__link" href="#">
+              <img class="logo__img" src="images/logo.svg" alt="logo">
+            </a>
+          </div>
+          <span class="header__line"></span>
+        </div>
+
+        <div class="header__mob-nav">
+          <div class="close-btn">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.66669 2.66663L13.3334 13.3333" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round"></path>
+              <path d="M2.66669 13.3333L13.3334 2.66663" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round"></path>
+            </svg>
+          </div>
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Trade</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Earn</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Lottery</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">NFT</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">IFO</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Bridges</a>
+            </li>
+          </ul>
+          <div class="header__right">
+            <div class="project-balance">
+              <div class="project-balance__icon">
+                <img src="images/header-count.png" alt="count icon">
+              </div>
+              <div class="project-balance__number">
+                $8.072
+              </div>
+            </div>
+            <div class="header__settings-icons">
+              <div class="site-language">
+                <button class="site-language__btn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M8.0001 3H9.0001C7.0501 8.84 7.0501 15.16 9.0001 21H8.0001" stroke-width="1.5"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M15 3C16.95 8.84 16.95 15.16 15 21" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M3 16V15C8.84 16.95 15.16 16.95 21 15V16" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M3 8.99998C8.84 7.04998 15.16 7.04998 21 8.99998" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                  <span class="site-language__btn-arrow">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M9.96004 4.47461L6.70004 7.73461C6.31504 8.11961 5.68504 8.11961 5.30004 7.73461L2.04004 4.47461"
+                        stroke="#A7A9AD" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="site-language__drop">
+                  <div class="dropdown dropdown--static dropdown--full-width">
+                    <ul>
+                      <li>
+                        <button type="button">
+                          <span class="lang-flag">
+                            <img src="./images/flag1.png" alt="">
+                          </span>
+                          English
+                        </button>
+                      </li>
+                      <li>
+                        <button type="button">
+                          <span class="lang-flag">
+                            <img src="./images/flag2.png" alt="">
+                          </span>
+                          French
+                        </button>
+                      </li>
+                      <li>
+                        <button type="button">
+                          <span class="lang-flag">
+                            <img src="./images/flag3.png" alt="">
+                          </span>
+                          German
+                        </button>
+                      </li>
+                      <li>
+                        <button type="button">
+                          <span class="lang-flag">
+                            <img src="./images/flag4.png" alt="">
+                          </span>
+                          Ukrainian
+                        </button>
+                      </li>
+                      <li>
+                        <button type="button">
+                          <span class="lang-flag">
+                            <img src="./images/flag5.png" alt="">
+                          </span>
+                          Chinese
+                        </button>
+                      </li>
+                      <li>
+                        <button type="button">
+                          <span class="lang-flag">
+                            <img src="./images/flag6.png" alt="">
+                          </span>
+                          Russian
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="header__settings ">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z"
+                    stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M2 12.8801V11.1201C2 10.0801 2.85 9.22006 3.9 9.22006C5.71 9.22006 6.45 7.94006 5.54 6.37006C5.02 5.47006 5.33 4.30006 6.24 3.78006L7.97 2.79006C8.76 2.32006 9.78 2.60006 10.25 3.39006L10.36 3.58006C11.26 5.15006 12.74 5.15006 13.65 3.58006L13.76 3.39006C14.23 2.60006 15.25 2.32006 16.04 2.79006L17.77 3.78006C18.68 4.30006 18.99 5.47006 18.47 6.37006C17.56 7.94006 18.3 9.22006 20.11 9.22006C21.15 9.22006 22.01 10.0701 22.01 11.1201V12.8801C22.01 13.9201 21.16 14.7801 20.11 14.7801C18.3 14.7801 17.56 16.0601 18.47 17.6301C18.99 18.5401 18.68 19.7001 17.77 20.2201L16.04 21.2101C15.25 21.6801 14.23 21.4001 13.76 20.6101L13.65 20.4201C12.75 18.8501 11.27 18.8501 10.36 20.4201L10.25 20.6101C9.78 21.4001 8.76 21.6801 7.97 21.2101L6.24 20.2201C5.33 19.7001 5.02 18.5301 5.54 17.6301C6.45 16.0601 5.71 14.7801 3.9 14.7801C2.85 14.7801 2 13.9201 2 12.8801Z"
+                    stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+            </div>
+            <button class="button button--header-connect">Connect Wallet</button>
+          </div>
+        </div>
+        <div class="header__burger">
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="basic-section">
+        <div class="top-bg">
+          <img src="./images/top-bg.jpg" class="top-bg__cover" alt="bg">
+          <div class="container">
+            <div class="top-bg-content">
+              <div class="switch switch--big">
+                <button class="switch__btn active">Overview</button>
+                <button class="switch__btn">Collections</button>
+                <button class="switch__btn">Activity</button>
+              </div>
+              <div class="top-bg-content__bottom-part">
+                <h2 class="top-bg-title">NFT Market</h2>
+                <div class="top-panel">
+                  <p class="descr">Buy and Sell NFTs on Solana Main network</p>
+                  <div class="top-panel__search">
+                    <div class="input input--bigger input--type2">
+                      <input class="input-item" type="text" placeholder="Search address">
+                      <button class="input-icon">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M9.58341 17.5C13.9557 17.5 17.5001 13.9555 17.5001 9.58329C17.5001 5.21104 13.9557 1.66663 9.58341 1.66663C5.21116 1.66663 1.66675 5.21104 1.66675 9.58329C1.66675 13.9555 5.21116 17.5 9.58341 17.5Z"
+                            stroke="#A7A9AD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M18.3334 18.3333L16.6667 16.6666" stroke="#A7A9AD" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="nft">
+            <div class="nft-top">
+              <h4 class="nft-top__title">Newest Collections</h4>
+              <a href="#" class="panel-btn">
+                <span class="panel-btn__text">View All</span>
+                <span class="panel-btn__icon">
+                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 22.5C17.5228 22.5 22 18.0228 22 12.5C22 6.97715 17.5228 2.5 12 2.5C6.47715 2.5 2 6.97715 2 12.5C2 18.0228 6.47715 22.5 12 22.5Z"
+                      stroke="#A7A9AD" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M10.74 16.03L14.26 12.5L10.74 8.96997" stroke="#A7A9AD" stroke-width="1.5"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <div class="nft-container">
+              <div class="nft-item">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/1.jpg" alt="">
+                </div>
+                <div class="nft-item__user-icon">
+                  <img class="user-icon" src="images/nft/user-1.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name">Awesome collection</h4>
+                <div class="nft-item__bottom">
+                  <div class="token">
+                    <div class="token__icon">
+                      <img src="images/coins/S.png" alt="">
+                    </div>
+                    <div class="token__info">
+                      <p class="token__info-title">
+                        Volume
+                      </p>
+                      <p class="token__info-number">
+                        25,5251
+                      </p>
+                    </div>
+                  </div>
+                  <div class="nft-item__items-count">
+                    <span>28</span> items
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/2.jpg" alt="">
+                </div>
+                <div class="nft-item__user-icon">
+                  <img class="user-icon" src="images/nft/user-2.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name">Awesome collection</h4>
+                <div class="nft-item__bottom">
+                  <div class="token">
+                    <div class="token__icon">
+                      <img src="images/coins/S.png" alt="">
+                    </div>
+                    <div class="token__info">
+                      <p class="token__info-title">
+                        Volume
+                      </p>
+                      <p class="token__info-number">
+                        25,5251
+                      </p>
+                    </div>
+                  </div>
+                  <div class="nft-item__items-count">
+                    <span>28</span> items
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/3.jpg" alt="">
+                </div>
+                <div class="nft-item__user-icon">
+                  <img class="user-icon" src="images/nft/user-3.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name">Awesome collection</h4>
+                <div class="nft-item__bottom">
+                  <div class="token">
+                    <div class="token__icon">
+                      <img src="images/coins/S.png" alt="">
+                    </div>
+                    <div class="token__info">
+                      <p class="token__info-title">
+                        Volume
+                      </p>
+                      <p class="token__info-number">
+                        25,5251
+                      </p>
+                    </div>
+                  </div>
+                  <div class="nft-item__items-count">
+                    <span>28</span> items
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/4.jpg" alt="">
+                </div>
+                <div class="nft-item__user-icon">
+                  <img class="user-icon" src="images/nft/user-4.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name">Awesome collection</h4>
+                <div class="nft-item__bottom">
+                  <div class="token">
+                    <div class="token__icon">
+                      <img src="images/coins/S.png" alt="">
+                    </div>
+                    <div class="token__info">
+                      <p class="token__info-title">
+                        Volume
+                      </p>
+                      <p class="token__info-number">
+                        25,5251
+                      </p>
+                    </div>
+                  </div>
+                  <div class="nft-item__items-count">
+                    <span>28</span> items
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/5.jpg" alt="">
+                </div>
+                <div class="nft-item__user-icon">
+                  <img class="user-icon" src="images/nft/user-5.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name">Awesome collection</h4>
+                <div class="nft-item__bottom">
+                  <div class="token">
+                    <div class="token__icon">
+                      <img src="images/coins/S.png" alt="">
+                    </div>
+                    <div class="token__info">
+                      <p class="token__info-title">
+                        Volume
+                      </p>
+                      <p class="token__info-number">
+                        25,5251
+                      </p>
+                    </div>
+                  </div>
+                  <div class="nft-item__items-count">
+                    <span>28</span> items
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/6.jpg" alt="">
+                </div>
+                <div class="nft-item__user-icon">
+                  <img class="user-icon" src="images/nft/user-6.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name">Awesome collection</h4>
+                <div class="nft-item__bottom">
+                  <div class="token">
+                    <div class="token__icon">
+                      <img src="images/coins/S.png" alt="">
+                    </div>
+                    <div class="token__info">
+                      <p class="token__info-title">
+                        Volume
+                      </p>
+                      <p class="token__info-number">
+                        25,5251
+                      </p>
+                    </div>
+                  </div>
+                  <div class="nft-item__items-count">
+                    <span>28</span> items
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="nft-top">
+              <h4 class="nft-top__title">Hot Collections</h4>
+              <a href="#" class="panel-btn">
+                <span class="panel-btn__text">View All</span>
+                <span class="panel-btn__icon">
+                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 22.5C17.5228 22.5 22 18.0228 22 12.5C22 6.97715 17.5228 2.5 12 2.5C6.47715 2.5 2 6.97715 2 12.5C2 18.0228 6.47715 22.5 12 22.5Z"
+                      stroke="#A7A9AD" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M10.74 16.03L14.26 12.5L10.74 8.96997" stroke="#A7A9AD" stroke-width="1.5"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <div class="nft-container">
+              <div class="nft-item">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/7.jpg" alt="">
+                </div>
+                <div class="nft-item__user-icon">
+                  <img class="user-icon" src="images/nft/user-7.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name">Awesome collection</h4>
+                <div class="nft-item__bottom">
+                  <div class="token">
+                    <div class="token__icon">
+                      <img src="images/coins/S.png" alt="">
+                    </div>
+                    <div class="token__info">
+                      <p class="token__info-title">
+                        Volume
+                      </p>
+                      <p class="token__info-number">
+                        25,5251
+                      </p>
+                    </div>
+                  </div>
+                  <div class="nft-item__items-count">
+                    <span>28</span> items
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/8.jpg" alt="">
+                </div>
+                <div class="nft-item__user-icon">
+                  <img class="user-icon" src="images/nft/user-8.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name">Awesome collection</h4>
+                <div class="nft-item__bottom">
+                  <div class="token">
+                    <div class="token__icon">
+                      <img src="images/coins/S.png" alt="">
+                    </div>
+                    <div class="token__info">
+                      <p class="token__info-title">
+                        Volume
+                      </p>
+                      <p class="token__info-number">
+                        25,5251
+                      </p>
+                    </div>
+                  </div>
+                  <div class="nft-item__items-count">
+                    <span>28</span> items
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/9.jpg" alt="">
+                </div>
+                <div class="nft-item__user-icon">
+                  <img class="user-icon" src="images/nft/user-9.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name">Awesome collection</h4>
+                <div class="nft-item__bottom">
+                  <div class="token">
+                    <div class="token__icon">
+                      <img src="images/coins/S.png" alt="">
+                    </div>
+                    <div class="token__info">
+                      <p class="token__info-title">
+                        Volume
+                      </p>
+                      <p class="token__info-number">
+                        25,5251
+                      </p>
+                    </div>
+                  </div>
+                  <div class="nft-item__items-count">
+                    <span>28</span> items
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/10.jpg" alt="">
+                </div>
+                <div class="nft-item__user-icon">
+                  <img class="user-icon" src="images/nft/user-10.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name">Awesome collection</h4>
+                <div class="nft-item__bottom">
+                  <div class="token">
+                    <div class="token__icon">
+                      <img src="images/coins/S.png" alt="">
+                    </div>
+                    <div class="token__info">
+                      <p class="token__info-title">
+                        Volume
+                      </p>
+                      <p class="token__info-number">
+                        25,5251
+                      </p>
+                    </div>
+                  </div>
+                  <div class="nft-item__items-count">
+                    <span>28</span> items
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/11.jpg" alt="">
+                </div>
+                <div class="nft-item__user-icon">
+                  <img class="user-icon" src="images/nft/user-11.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name">Awesome collection</h4>
+                <div class="nft-item__bottom">
+                  <div class="token">
+                    <div class="token__icon">
+                      <img src="images/coins/S.png" alt="">
+                    </div>
+                    <div class="token__info">
+                      <p class="token__info-title">
+                        Volume
+                      </p>
+                      <p class="token__info-number">
+                        25,5251
+                      </p>
+                    </div>
+                  </div>
+                  <div class="nft-item__items-count">
+                    <span>28</span> items
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/12.jpg" alt="">
+                </div>
+                <div class="nft-item__user-icon">
+                  <img class="user-icon" src="images/nft/user-12.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name">Awesome collection</h4>
+                <div class="nft-item__bottom">
+                  <div class="token">
+                    <div class="token__icon">
+                      <img src="images/coins/S.png" alt="">
+                    </div>
+                    <div class="token__info">
+                      <p class="token__info-title">
+                        Volume
+                      </p>
+                      <p class="token__info-number">
+                        25,5251
+                      </p>
+                    </div>
+                  </div>
+                  <div class="nft-item__items-count">
+                    <span>28</span> items
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nft-top">
+              <h4 class="nft-top__title">Newest Arrivals</h4>
+              <a href="#" class="panel-btn">
+                <span class="panel-btn__text">View All</span>
+                <span class="panel-btn__icon">
+                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 22.5C17.5228 22.5 22 18.0228 22 12.5C22 6.97715 17.5228 2.5 12 2.5C6.47715 2.5 2 6.97715 2 12.5C2 18.0228 6.47715 22.5 12 22.5Z"
+                      stroke="#A7A9AD" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M10.74 16.03L14.26 12.5L10.74 8.96997" stroke="#A7A9AD" stroke-width="1.5"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <div class="nft-container nft-container--four-items">
+              <div class="nft-item nft-item--small">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/small-1.png" alt="">
+                </div>
+                <h4 class="nft-item__name nft-item__name--left">Awesome collection</h4>
+                <div class="nft-item__descr">
+                  <div class="nft-item__descr-icon">
+                    <img src="images/nft/descr-icon-1.jpg" alt="">
+                  </div>
+                  <p class="nft-item__descr-text">Awesome collection</p>
+                </div>
+                <div class="nft-item__bottom">
+                  <div class="nft-item-price">
+                    <span class="nft-item-price__icon">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.5625 11.94H10.05C10.5375 11.94 10.9425 11.505 10.9425 10.98C10.9425 10.3275 10.71 10.2 10.3275 10.065L9.57 9.80249V11.94H9.5625Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M8.97755 1.42506C4.83755 1.44006 1.48505 4.80756 1.50005 8.94756C1.51505 13.0876 4.88255 16.4401 9.02255 16.4251C13.1625 16.4101 16.515 13.0426 16.5 8.90256C16.4851 4.76256 13.1175 1.41756 8.97755 1.42506ZM10.6951 9.00006C11.2801 9.20256 12.0676 9.63756 12.0676 10.9801C12.0676 12.1351 11.16 13.0651 10.05 13.0651H9.56255V13.5001C9.56255 13.8076 9.30755 14.0626 9.00005 14.0626C8.69255 14.0626 8.43755 13.8076 8.43755 13.5001V13.0651H8.16755C6.93755 13.0651 5.94005 12.0301 5.94005 10.7551C5.94005 10.4476 6.19505 10.1926 6.50255 10.1926C6.81005 10.1926 7.06505 10.4476 7.06505 10.7551C7.06505 11.4076 7.56005 11.9401 8.16755 11.9401H8.43755V9.40506L7.30505 9.00006C6.72005 8.79756 5.93255 8.36256 5.93255 7.02006C5.93255 5.86506 6.84005 4.93506 7.95005 4.93506H8.43755V4.50006C8.43755 4.19256 8.69255 3.93756 9.00005 3.93756C9.30755 3.93756 9.56255 4.19256 9.56255 4.50006V4.93506H9.83255C11.0625 4.93506 12.0601 5.97006 12.0601 7.24506C12.0601 7.55256 11.805 7.80756 11.4976 7.80756C11.1901 7.80756 10.9351 7.55256 10.9351 7.24506C10.9351 6.59256 10.4401 6.06006 9.83255 6.06006H9.56255V8.59506L10.6951 9.00006Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M7.06445 7.02756C7.06445 7.68006 7.29695 7.80756 7.67945 7.94256L8.43695 8.20506V6.06006H7.94945C7.46195 6.06006 7.06445 6.49506 7.06445 7.02756Z"
+                          fill="#A7A9AD" />
+                      </svg>
+                    </span>
+                    <p class="nft-item-price__text">
+                      Price
+                    </p>
+                    <div class="nft-item-price__group">
+                      <p class="nft-item-price__group-value">
+                        ($2 358,47)
+                      </p>
+                      <div class="token">
+                        <div class="token__icon token__icon--small">
+                          <img src="images/coins/S.png" alt="">
+                        </div>
+                      </div>
+                      <p class="nft-item-price__group-second-value">
+                        0,015
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item nft-item--small">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/small-2.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name nft-item__name--left">Awesome collection</h4>
+                <div class="nft-item__descr">
+                  <div class="nft-item__descr-icon">
+                    <img src="images/nft/descr-icon-1.jpg" alt="">
+                  </div>
+                  <p class="nft-item__descr-text">Awesome collection</p>
+                </div>
+                <div class="nft-item__bottom">
+                  <div class="nft-item-price">
+                    <span class="nft-item-price__icon">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.5625 11.94H10.05C10.5375 11.94 10.9425 11.505 10.9425 10.98C10.9425 10.3275 10.71 10.2 10.3275 10.065L9.57 9.80249V11.94H9.5625Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M8.97755 1.42506C4.83755 1.44006 1.48505 4.80756 1.50005 8.94756C1.51505 13.0876 4.88255 16.4401 9.02255 16.4251C13.1625 16.4101 16.515 13.0426 16.5 8.90256C16.4851 4.76256 13.1175 1.41756 8.97755 1.42506ZM10.6951 9.00006C11.2801 9.20256 12.0676 9.63756 12.0676 10.9801C12.0676 12.1351 11.16 13.0651 10.05 13.0651H9.56255V13.5001C9.56255 13.8076 9.30755 14.0626 9.00005 14.0626C8.69255 14.0626 8.43755 13.8076 8.43755 13.5001V13.0651H8.16755C6.93755 13.0651 5.94005 12.0301 5.94005 10.7551C5.94005 10.4476 6.19505 10.1926 6.50255 10.1926C6.81005 10.1926 7.06505 10.4476 7.06505 10.7551C7.06505 11.4076 7.56005 11.9401 8.16755 11.9401H8.43755V9.40506L7.30505 9.00006C6.72005 8.79756 5.93255 8.36256 5.93255 7.02006C5.93255 5.86506 6.84005 4.93506 7.95005 4.93506H8.43755V4.50006C8.43755 4.19256 8.69255 3.93756 9.00005 3.93756C9.30755 3.93756 9.56255 4.19256 9.56255 4.50006V4.93506H9.83255C11.0625 4.93506 12.0601 5.97006 12.0601 7.24506C12.0601 7.55256 11.805 7.80756 11.4976 7.80756C11.1901 7.80756 10.9351 7.55256 10.9351 7.24506C10.9351 6.59256 10.4401 6.06006 9.83255 6.06006H9.56255V8.59506L10.6951 9.00006Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M7.06445 7.02756C7.06445 7.68006 7.29695 7.80756 7.67945 7.94256L8.43695 8.20506V6.06006H7.94945C7.46195 6.06006 7.06445 6.49506 7.06445 7.02756Z"
+                          fill="#A7A9AD" />
+                      </svg>
+                    </span>
+                    <p class="nft-item-price__text">
+                      Price
+                    </p>
+                    <div class="nft-item-price__group">
+                      <p class="nft-item-price__group-value">
+                        ($2 358,47)
+                      </p>
+                      <div class="token">
+                        <div class="token__icon token__icon--small">
+                          <img src="images/coins/S.png" alt="">
+                        </div>
+                      </div>
+                      <p class="nft-item-price__group-second-value">
+                        0,015
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item nft-item--small">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/small-3.png" alt="">
+                </div>
+                <h4 class="nft-item__name nft-item__name--left">Awesome collection</h4>
+                <div class="nft-item__descr">
+                  <div class="nft-item__descr-icon">
+                    <img src="images/nft/descr-icon-1.jpg" alt="">
+                  </div>
+                  <p class="nft-item__descr-text">Awesome collection</p>
+                </div>
+                <div class="nft-item__bottom">
+                  <div class="nft-item-price">
+                    <span class="nft-item-price__icon">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.5625 11.94H10.05C10.5375 11.94 10.9425 11.505 10.9425 10.98C10.9425 10.3275 10.71 10.2 10.3275 10.065L9.57 9.80249V11.94H9.5625Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M8.97755 1.42506C4.83755 1.44006 1.48505 4.80756 1.50005 8.94756C1.51505 13.0876 4.88255 16.4401 9.02255 16.4251C13.1625 16.4101 16.515 13.0426 16.5 8.90256C16.4851 4.76256 13.1175 1.41756 8.97755 1.42506ZM10.6951 9.00006C11.2801 9.20256 12.0676 9.63756 12.0676 10.9801C12.0676 12.1351 11.16 13.0651 10.05 13.0651H9.56255V13.5001C9.56255 13.8076 9.30755 14.0626 9.00005 14.0626C8.69255 14.0626 8.43755 13.8076 8.43755 13.5001V13.0651H8.16755C6.93755 13.0651 5.94005 12.0301 5.94005 10.7551C5.94005 10.4476 6.19505 10.1926 6.50255 10.1926C6.81005 10.1926 7.06505 10.4476 7.06505 10.7551C7.06505 11.4076 7.56005 11.9401 8.16755 11.9401H8.43755V9.40506L7.30505 9.00006C6.72005 8.79756 5.93255 8.36256 5.93255 7.02006C5.93255 5.86506 6.84005 4.93506 7.95005 4.93506H8.43755V4.50006C8.43755 4.19256 8.69255 3.93756 9.00005 3.93756C9.30755 3.93756 9.56255 4.19256 9.56255 4.50006V4.93506H9.83255C11.0625 4.93506 12.0601 5.97006 12.0601 7.24506C12.0601 7.55256 11.805 7.80756 11.4976 7.80756C11.1901 7.80756 10.9351 7.55256 10.9351 7.24506C10.9351 6.59256 10.4401 6.06006 9.83255 6.06006H9.56255V8.59506L10.6951 9.00006Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M7.06445 7.02756C7.06445 7.68006 7.29695 7.80756 7.67945 7.94256L8.43695 8.20506V6.06006H7.94945C7.46195 6.06006 7.06445 6.49506 7.06445 7.02756Z"
+                          fill="#A7A9AD" />
+                      </svg>
+                    </span>
+                    <p class="nft-item-price__text">
+                      Price
+                    </p>
+                    <div class="nft-item-price__group">
+                      <p class="nft-item-price__group-value">
+                        ($2 358,47)
+                      </p>
+                      <div class="token">
+                        <div class="token__icon token__icon--small">
+                          <img src="images/coins/S.png" alt="">
+                        </div>
+                      </div>
+                      <p class="nft-item-price__group-second-value">
+                        0,015
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item nft-item--small">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/small-4.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name nft-item__name--left">Awesome collection</h4>
+                <div class="nft-item__descr">
+                  <div class="nft-item__descr-icon">
+                    <img src="images/nft/descr-icon-1.jpg" alt="">
+                  </div>
+                  <p class="nft-item__descr-text">Awesome collection</p>
+                </div>
+                <div class="nft-item__bottom">
+                  <div class="nft-item-price">
+                    <span class="nft-item-price__icon">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.5625 11.94H10.05C10.5375 11.94 10.9425 11.505 10.9425 10.98C10.9425 10.3275 10.71 10.2 10.3275 10.065L9.57 9.80249V11.94H9.5625Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M8.97755 1.42506C4.83755 1.44006 1.48505 4.80756 1.50005 8.94756C1.51505 13.0876 4.88255 16.4401 9.02255 16.4251C13.1625 16.4101 16.515 13.0426 16.5 8.90256C16.4851 4.76256 13.1175 1.41756 8.97755 1.42506ZM10.6951 9.00006C11.2801 9.20256 12.0676 9.63756 12.0676 10.9801C12.0676 12.1351 11.16 13.0651 10.05 13.0651H9.56255V13.5001C9.56255 13.8076 9.30755 14.0626 9.00005 14.0626C8.69255 14.0626 8.43755 13.8076 8.43755 13.5001V13.0651H8.16755C6.93755 13.0651 5.94005 12.0301 5.94005 10.7551C5.94005 10.4476 6.19505 10.1926 6.50255 10.1926C6.81005 10.1926 7.06505 10.4476 7.06505 10.7551C7.06505 11.4076 7.56005 11.9401 8.16755 11.9401H8.43755V9.40506L7.30505 9.00006C6.72005 8.79756 5.93255 8.36256 5.93255 7.02006C5.93255 5.86506 6.84005 4.93506 7.95005 4.93506H8.43755V4.50006C8.43755 4.19256 8.69255 3.93756 9.00005 3.93756C9.30755 3.93756 9.56255 4.19256 9.56255 4.50006V4.93506H9.83255C11.0625 4.93506 12.0601 5.97006 12.0601 7.24506C12.0601 7.55256 11.805 7.80756 11.4976 7.80756C11.1901 7.80756 10.9351 7.55256 10.9351 7.24506C10.9351 6.59256 10.4401 6.06006 9.83255 6.06006H9.56255V8.59506L10.6951 9.00006Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M7.06445 7.02756C7.06445 7.68006 7.29695 7.80756 7.67945 7.94256L8.43695 8.20506V6.06006H7.94945C7.46195 6.06006 7.06445 6.49506 7.06445 7.02756Z"
+                          fill="#A7A9AD" />
+                      </svg>
+                    </span>
+                    <p class="nft-item-price__text">
+                      Price
+                    </p>
+                    <div class="nft-item-price__group">
+                      <p class="nft-item-price__group-value">
+                        ($2 358,47)
+                      </p>
+                      <div class="token">
+                        <div class="token__icon token__icon--small">
+                          <img src="images/coins/S.png" alt="">
+                        </div>
+                      </div>
+                      <p class="nft-item-price__group-second-value">
+                        0,015
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item nft-item--small">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/small-1.png" alt="">
+                </div>
+                <h4 class="nft-item__name nft-item__name--left">Awesome collection</h4>
+                <div class="nft-item__descr">
+                  <div class="nft-item__descr-icon">
+                    <img src="images/nft/descr-icon-1.jpg" alt="">
+                  </div>
+                  <p class="nft-item__descr-text">Awesome collection</p>
+                </div>
+                <div class="nft-item__bottom">
+                  <div class="nft-item-price">
+                    <span class="nft-item-price__icon">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.5625 11.94H10.05C10.5375 11.94 10.9425 11.505 10.9425 10.98C10.9425 10.3275 10.71 10.2 10.3275 10.065L9.57 9.80249V11.94H9.5625Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M8.97755 1.42506C4.83755 1.44006 1.48505 4.80756 1.50005 8.94756C1.51505 13.0876 4.88255 16.4401 9.02255 16.4251C13.1625 16.4101 16.515 13.0426 16.5 8.90256C16.4851 4.76256 13.1175 1.41756 8.97755 1.42506ZM10.6951 9.00006C11.2801 9.20256 12.0676 9.63756 12.0676 10.9801C12.0676 12.1351 11.16 13.0651 10.05 13.0651H9.56255V13.5001C9.56255 13.8076 9.30755 14.0626 9.00005 14.0626C8.69255 14.0626 8.43755 13.8076 8.43755 13.5001V13.0651H8.16755C6.93755 13.0651 5.94005 12.0301 5.94005 10.7551C5.94005 10.4476 6.19505 10.1926 6.50255 10.1926C6.81005 10.1926 7.06505 10.4476 7.06505 10.7551C7.06505 11.4076 7.56005 11.9401 8.16755 11.9401H8.43755V9.40506L7.30505 9.00006C6.72005 8.79756 5.93255 8.36256 5.93255 7.02006C5.93255 5.86506 6.84005 4.93506 7.95005 4.93506H8.43755V4.50006C8.43755 4.19256 8.69255 3.93756 9.00005 3.93756C9.30755 3.93756 9.56255 4.19256 9.56255 4.50006V4.93506H9.83255C11.0625 4.93506 12.0601 5.97006 12.0601 7.24506C12.0601 7.55256 11.805 7.80756 11.4976 7.80756C11.1901 7.80756 10.9351 7.55256 10.9351 7.24506C10.9351 6.59256 10.4401 6.06006 9.83255 6.06006H9.56255V8.59506L10.6951 9.00006Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M7.06445 7.02756C7.06445 7.68006 7.29695 7.80756 7.67945 7.94256L8.43695 8.20506V6.06006H7.94945C7.46195 6.06006 7.06445 6.49506 7.06445 7.02756Z"
+                          fill="#A7A9AD" />
+                      </svg>
+                    </span>
+                    <p class="nft-item-price__text">
+                      Price
+                    </p>
+                    <div class="nft-item-price__group">
+                      <p class="nft-item-price__group-value">
+                        ($2 358,47)
+                      </p>
+                      <div class="token">
+                        <div class="token__icon token__icon--small">
+                          <img src="images/coins/S.png" alt="">
+                        </div>
+                      </div>
+                      <p class="nft-item-price__group-second-value">
+                        0,015
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item nft-item--small">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/small-2.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name nft-item__name--left">Awesome collection</h4>
+                <div class="nft-item__descr">
+                  <div class="nft-item__descr-icon">
+                    <img src="images/nft/descr-icon-1.jpg" alt="">
+                  </div>
+                  <p class="nft-item__descr-text">Awesome collection</p>
+                </div>
+                <div class="nft-item__bottom">
+                  <div class="nft-item-price">
+                    <span class="nft-item-price__icon">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.5625 11.94H10.05C10.5375 11.94 10.9425 11.505 10.9425 10.98C10.9425 10.3275 10.71 10.2 10.3275 10.065L9.57 9.80249V11.94H9.5625Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M8.97755 1.42506C4.83755 1.44006 1.48505 4.80756 1.50005 8.94756C1.51505 13.0876 4.88255 16.4401 9.02255 16.4251C13.1625 16.4101 16.515 13.0426 16.5 8.90256C16.4851 4.76256 13.1175 1.41756 8.97755 1.42506ZM10.6951 9.00006C11.2801 9.20256 12.0676 9.63756 12.0676 10.9801C12.0676 12.1351 11.16 13.0651 10.05 13.0651H9.56255V13.5001C9.56255 13.8076 9.30755 14.0626 9.00005 14.0626C8.69255 14.0626 8.43755 13.8076 8.43755 13.5001V13.0651H8.16755C6.93755 13.0651 5.94005 12.0301 5.94005 10.7551C5.94005 10.4476 6.19505 10.1926 6.50255 10.1926C6.81005 10.1926 7.06505 10.4476 7.06505 10.7551C7.06505 11.4076 7.56005 11.9401 8.16755 11.9401H8.43755V9.40506L7.30505 9.00006C6.72005 8.79756 5.93255 8.36256 5.93255 7.02006C5.93255 5.86506 6.84005 4.93506 7.95005 4.93506H8.43755V4.50006C8.43755 4.19256 8.69255 3.93756 9.00005 3.93756C9.30755 3.93756 9.56255 4.19256 9.56255 4.50006V4.93506H9.83255C11.0625 4.93506 12.0601 5.97006 12.0601 7.24506C12.0601 7.55256 11.805 7.80756 11.4976 7.80756C11.1901 7.80756 10.9351 7.55256 10.9351 7.24506C10.9351 6.59256 10.4401 6.06006 9.83255 6.06006H9.56255V8.59506L10.6951 9.00006Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M7.06445 7.02756C7.06445 7.68006 7.29695 7.80756 7.67945 7.94256L8.43695 8.20506V6.06006H7.94945C7.46195 6.06006 7.06445 6.49506 7.06445 7.02756Z"
+                          fill="#A7A9AD" />
+                      </svg>
+                    </span>
+                    <p class="nft-item-price__text">
+                      Price
+                    </p>
+                    <div class="nft-item-price__group">
+                      <p class="nft-item-price__group-value">
+                        ($2 358,47)
+                      </p>
+                      <div class="token">
+                        <div class="token__icon token__icon--small">
+                          <img src="images/coins/S.png" alt="">
+                        </div>
+                      </div>
+                      <p class="nft-item-price__group-second-value">
+                        0,015
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item nft-item--small">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/small-3.png" alt="">
+                </div>
+                <h4 class="nft-item__name nft-item__name--left">Awesome collection</h4>
+                <div class="nft-item__descr">
+                  <div class="nft-item__descr-icon">
+                    <img src="images/nft/descr-icon-1.jpg" alt="">
+                  </div>
+                  <p class="nft-item__descr-text">Awesome collection</p>
+                </div>
+                <div class="nft-item__bottom">
+                  <div class="nft-item-price">
+                    <span class="nft-item-price__icon">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.5625 11.94H10.05C10.5375 11.94 10.9425 11.505 10.9425 10.98C10.9425 10.3275 10.71 10.2 10.3275 10.065L9.57 9.80249V11.94H9.5625Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M8.97755 1.42506C4.83755 1.44006 1.48505 4.80756 1.50005 8.94756C1.51505 13.0876 4.88255 16.4401 9.02255 16.4251C13.1625 16.4101 16.515 13.0426 16.5 8.90256C16.4851 4.76256 13.1175 1.41756 8.97755 1.42506ZM10.6951 9.00006C11.2801 9.20256 12.0676 9.63756 12.0676 10.9801C12.0676 12.1351 11.16 13.0651 10.05 13.0651H9.56255V13.5001C9.56255 13.8076 9.30755 14.0626 9.00005 14.0626C8.69255 14.0626 8.43755 13.8076 8.43755 13.5001V13.0651H8.16755C6.93755 13.0651 5.94005 12.0301 5.94005 10.7551C5.94005 10.4476 6.19505 10.1926 6.50255 10.1926C6.81005 10.1926 7.06505 10.4476 7.06505 10.7551C7.06505 11.4076 7.56005 11.9401 8.16755 11.9401H8.43755V9.40506L7.30505 9.00006C6.72005 8.79756 5.93255 8.36256 5.93255 7.02006C5.93255 5.86506 6.84005 4.93506 7.95005 4.93506H8.43755V4.50006C8.43755 4.19256 8.69255 3.93756 9.00005 3.93756C9.30755 3.93756 9.56255 4.19256 9.56255 4.50006V4.93506H9.83255C11.0625 4.93506 12.0601 5.97006 12.0601 7.24506C12.0601 7.55256 11.805 7.80756 11.4976 7.80756C11.1901 7.80756 10.9351 7.55256 10.9351 7.24506C10.9351 6.59256 10.4401 6.06006 9.83255 6.06006H9.56255V8.59506L10.6951 9.00006Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M7.06445 7.02756C7.06445 7.68006 7.29695 7.80756 7.67945 7.94256L8.43695 8.20506V6.06006H7.94945C7.46195 6.06006 7.06445 6.49506 7.06445 7.02756Z"
+                          fill="#A7A9AD" />
+                      </svg>
+                    </span>
+                    <p class="nft-item-price__text">
+                      Price
+                    </p>
+                    <div class="nft-item-price__group">
+                      <p class="nft-item-price__group-value">
+                        ($2 358,47)
+                      </p>
+                      <div class="token">
+                        <div class="token__icon token__icon--small">
+                          <img src="images/coins/S.png" alt="">
+                        </div>
+                      </div>
+                      <p class="nft-item-price__group-second-value">
+                        0,015
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="nft-item nft-item--small">
+                <div class="nft-item__media">
+                  <img class="nft-item__img" src="images/nft/small-4.jpg" alt="">
+                </div>
+                <h4 class="nft-item__name nft-item__name--left">Awesome collection</h4>
+                <div class="nft-item__descr">
+                  <div class="nft-item__descr-icon">
+                    <img src="images/nft/descr-icon-1.jpg" alt="">
+                  </div>
+                  <p class="nft-item__descr-text">Awesome collection</p>
+                </div>
+                <div class="nft-item__bottom">
+                  <div class="nft-item-price">
+                    <span class="nft-item-price__icon">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.5625 11.94H10.05C10.5375 11.94 10.9425 11.505 10.9425 10.98C10.9425 10.3275 10.71 10.2 10.3275 10.065L9.57 9.80249V11.94H9.5625Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M8.97755 1.42506C4.83755 1.44006 1.48505 4.80756 1.50005 8.94756C1.51505 13.0876 4.88255 16.4401 9.02255 16.4251C13.1625 16.4101 16.515 13.0426 16.5 8.90256C16.4851 4.76256 13.1175 1.41756 8.97755 1.42506ZM10.6951 9.00006C11.2801 9.20256 12.0676 9.63756 12.0676 10.9801C12.0676 12.1351 11.16 13.0651 10.05 13.0651H9.56255V13.5001C9.56255 13.8076 9.30755 14.0626 9.00005 14.0626C8.69255 14.0626 8.43755 13.8076 8.43755 13.5001V13.0651H8.16755C6.93755 13.0651 5.94005 12.0301 5.94005 10.7551C5.94005 10.4476 6.19505 10.1926 6.50255 10.1926C6.81005 10.1926 7.06505 10.4476 7.06505 10.7551C7.06505 11.4076 7.56005 11.9401 8.16755 11.9401H8.43755V9.40506L7.30505 9.00006C6.72005 8.79756 5.93255 8.36256 5.93255 7.02006C5.93255 5.86506 6.84005 4.93506 7.95005 4.93506H8.43755V4.50006C8.43755 4.19256 8.69255 3.93756 9.00005 3.93756C9.30755 3.93756 9.56255 4.19256 9.56255 4.50006V4.93506H9.83255C11.0625 4.93506 12.0601 5.97006 12.0601 7.24506C12.0601 7.55256 11.805 7.80756 11.4976 7.80756C11.1901 7.80756 10.9351 7.55256 10.9351 7.24506C10.9351 6.59256 10.4401 6.06006 9.83255 6.06006H9.56255V8.59506L10.6951 9.00006Z"
+                          fill="#A7A9AD" />
+                        <path
+                          d="M7.06445 7.02756C7.06445 7.68006 7.29695 7.80756 7.67945 7.94256L8.43695 8.20506V6.06006H7.94945C7.46195 6.06006 7.06445 6.49506 7.06445 7.02756Z"
+                          fill="#A7A9AD" />
+                      </svg>
+                    </span>
+                    <p class="nft-item-price__text">
+                      Price
+                    </p>
+                    <div class="nft-item-price__group">
+                      <p class="nft-item-price__group-value">
+                        ($2 358,47)
+                      </p>
+                      <div class="token">
+                        <div class="token__icon token__icon--small">
+                          <img src="images/coins/S.png" alt="">
+                        </div>
+                      </div>
+                      <p class="nft-item-price__group-second-value">
+                        0,015
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="details-section details-section--nft">
+        <div class="container">
+          <h4 class="parts-title">FAQs</h4>
+          <div class="acardion-block">
+            <div class="acardion-item active">
+              <h4 class="acardion-item__title">
+                I sold an NFT, where’s my SOL?
+                <span class="acardion-item__arrow">
+                  <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.96004 4.97498L6.70004 8.23498C6.31504 8.61998 5.68504 8.61998 5.30004 8.23498L2.04004 4.97498"
+                      stroke-width="1" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </h4>
+              <div class="acardion-item__text">
+                <p>
+                  Trades are settled in WSOL, which is a wrapped version of SOL used on SOL Smart Chain. That means
+                  that when you sell an item, WSOL is sent to your wallet instead of SOL.
+                </p>
+                <p>
+                  You can instantly swap your WSOL for SOL with no trading fees on Cleandefi.
+                </p>
+              </div>
+            </div>
+            <div class="acardion-item">
+              <h4 class="acardion-item__title">
+                When can I trade other NFT Collections?
+                <span class="acardion-item__arrow">
+                  <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.96004 4.97498L6.70004 8.23498C6.31504 8.61998 5.68504 8.61998 5.30004 8.23498L2.04004 4.97498"
+                      stroke-width="1" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </h4>
+              <div class="acardion-item__text">
+                <p>
+                  In the new IFO 3.1 format. There is a brand new Private Sale. To participate, participants will have
+                  to meet certain requirements presented on the IFO card. Each eligible participant will be able to
+                  commit any amount of BNB up to the maximum commit limit, which is published along with the IFO
+                  voting
+                  proposal. The Private Sale has no participation fee.
+                </p>
+                <p>
+                  In the Public Sale, everyone with an active Cleandefi Swap profile can commit. However the maximum
+                  amount of BNB user can commit, is equal to the average BNB balance in the IFO BNB pool prior to the
+                  IFO. And there’s a fee for participation: see below.
+                </p>
+              </div>
+            </div>
+            <div class="acardion-item">
+              <h4 class="acardion-item__title">
+                How can I list my NFT collection on the Market?
+                <span class="acardion-item__arrow">
+                  <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.96004 4.97498L6.70004 8.23498C6.31504 8.61998 5.68504 8.61998 5.30004 8.23498L2.04004 4.97498"
+                      stroke-width="1" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </h4>
+              <div class="acardion-item__text">
+                <p>
+                  In the new IFO 3.1 format. There is a brand new Private Sale. To participate, participants will have
+                  to meet certain requirements presented on the IFO card. Each eligible participant will be able to
+                  commit any amount of BNB up to the maximum commit limit, which is published along with the IFO
+                  voting
+                  proposal. The Private Sale has no participation fee.
+                </p>
+                <p>
+                  In the Public Sale, everyone with an active Cleandefi Swap profile can commit. However the maximum
+                  amount of BNB user can commit, is equal to the average BNB balance in the IFO BNB pool prior to the
+                  IFO. And there’s a fee for participation: see below.
+                </p>
+              </div>
+            </div>
+            <div class="acardion-item acardion-item--br-b">
+              <h4 class="acardion-item__title">
+                What are the fees?
+                <span class="acardion-item__arrow">
+                  <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.96004 4.97498L6.70004 8.23498C6.31504 8.61998 5.68504 8.61998 5.30004 8.23498L2.04004 4.97498"
+                      stroke-width="1" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </h4>
+              <div class="acardion-item__text">
+                <p>
+                  In the new IFO 3.1 format. There is a brand new Private Sale. To participate, participants will have
+                  to meet certain requirements presented on the IFO card. Each eligible participant will be able to
+                  commit any amount of BNB up to the maximum commit limit, which is published along with the IFO
+                  voting
+                  proposal. The Private Sale has no participation fee.
+                </p>
+                <p>
+                  In the Public Sale, everyone with an active Cleandefi Swap profile can commit. However the maximum
+                  amount of BNB user can commit, is equal to the average BNB balance in the IFO BNB pool prior to the
+                  IFO. And there’s a fee for participation: see below.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="nft-apply-link">
+            <a href="#">
+              Apply to NFT Market!
+              <span>
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filter0_d_30228_56361)">
+                    <path d="M13.75 8.2501L19.9 2.1001" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M20.5004 5.1V1.5H16.9004" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path
+                      d="M12.25 1.5H10.75C7 1.5 5.5 3 5.5 6.75V11.25C5.5 15 7 16.5 10.75 16.5H15.25C19 16.5 20.5 15 20.5 11.25V9.75"
+                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </g>
+                  <defs>
+                    <filter id="filter0_d_30228_56361" x="0" y="0" width="26" height="26" filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="out" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_30228_56361" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_30228_56361" result="shape" />
+                    </filter>
+                  </defs>
+                </svg>
+
+              </span>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__top">
+          <div class="footer__logo">
+            <img src="images/logo-small.svg" alt="logo">
+          </div>
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Privacy Policy</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Terms of service</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Blog</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">FAQs</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Help</a>
+            </li>
+          </ul>
+          <div class="social">
+            <div class="social__item">
+              <a class="social__link" href="#">
+                <span class="social__icon">
+                  <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M7.66744 8.00826L8.09292 5.48387H5.43258V3.84572C5.43258 3.15509 5.80421 2.4819 6.99569 2.4819H8.20513V0.332654C8.20513 0.332654 7.1076 0.162109 6.05825 0.162109C3.86738 0.162109 2.43533 1.37118 2.43533 3.55993V5.48387H0V8.00826H2.43533V14.1108H5.43258V8.00826H7.66744Z" />
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <div class="social__item">
+              <a class="social__link" href="#">
+                <span class="social__icon">
+                  <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M13.2511 3.22941C13.2605 3.36401 13.2605 3.49865 13.2605 3.63326C13.2605 7.73901 10.2148 12.4698 4.6482 12.4698C2.93323 12.4698 1.34011 11.9602 0 11.0756C0.243664 11.1044 0.477925 11.114 0.730964 11.114C2.14602 11.114 3.44866 10.6237 4.48888 9.78712C3.15815 9.75827 2.04295 8.86404 1.65872 7.63326C1.84616 7.66209 2.03358 7.68133 2.23039 7.68133C2.50215 7.68133 2.77394 7.64285 3.02695 7.57558C1.64 7.28709 0.599743 6.0371 0.599743 4.52749V4.48904C1.0027 4.71981 1.4713 4.86404 1.96795 4.88325C1.15264 4.32554 0.618493 3.37363 0.618493 2.2967C0.618493 1.71979 0.768407 1.19094 1.03082 0.729403C2.52088 2.61402 4.76064 3.84477 7.27214 3.9794C7.2253 3.74863 7.19717 3.50827 7.19717 3.26788C7.19717 1.55632 8.54666 0.162109 10.2241 0.162109C11.0957 0.162109 11.8828 0.537108 12.4358 1.14288C13.1199 1.00827 13.7759 0.748641 14.3569 0.39288C14.132 1.11405 13.654 1.71982 13.0262 2.10441C13.6353 2.03713 14.2257 1.86402 14.7692 1.62366C14.357 2.23902 13.8415 2.78707 13.2511 3.22941Z" />
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <div class="social__item">
+              <a class="social__link" href="#">
+                <span class="social__icon">
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M7.38626 3.76008C5.29073 3.76008 3.60046 5.45072 3.60046 7.54673C3.60046 9.64273 5.29073 11.3334 7.38626 11.3334C9.4818 11.3334 11.1721 9.64273 11.1721 7.54673C11.1721 5.45072 9.4818 3.76008 7.38626 3.76008ZM7.38626 10.0085C6.03207 10.0085 4.925 8.90451 4.925 7.54673C4.925 6.18894 6.02878 5.08491 7.38626 5.08491C8.74375 5.08491 9.84753 6.18894 9.84753 7.54673C9.84753 8.90451 8.74045 10.0085 7.38626 10.0085ZM12.2099 3.60519C12.2099 4.09623 11.8146 4.48841 11.3269 4.48841C10.836 4.48841 10.4439 4.09294 10.4439 3.60519C10.4439 3.11744 10.8393 2.72197 11.3269 2.72197C11.8146 2.72197 12.2099 3.11744 12.2099 3.60519ZM14.7173 4.50159C14.6613 3.31847 14.3911 2.27047 13.5246 1.40702C12.6613 0.543575 11.6136 0.273336 10.4307 0.214015C9.21162 0.144807 5.55761 0.144807 4.33851 0.214015C3.15895 0.27004 2.11118 0.540279 1.24464 1.40373C0.378086 2.26717 0.111202 3.31517 0.0518941 4.49829C-0.017298 5.71767 -0.017298 9.37249 0.0518941 10.5919C0.107907 11.775 0.378086 12.823 1.24464 13.6864C2.11118 14.5499 3.15566 14.8201 4.33851 14.8794C5.55761 14.9486 9.21162 14.9486 10.4307 14.8794C11.6136 14.8234 12.6613 14.5532 13.5246 13.6864C14.3879 12.823 14.658 11.775 14.7173 10.5919C14.7865 9.37249 14.7865 5.72096 14.7173 4.50159ZM13.1424 11.9002C12.8854 12.5462 12.3879 13.0438 11.7388 13.3041C10.7668 13.6897 8.46039 13.6007 7.38626 13.6007C6.31214 13.6007 4.00244 13.6864 3.03375 13.3041C2.38795 13.0471 1.89043 12.5494 1.63013 11.9002C1.24464 10.928 1.3336 8.62109 1.3336 7.54673C1.3336 6.47236 1.24793 4.16214 1.63013 3.19324C1.88713 2.5473 2.38466 2.04966 3.03375 1.78931C4.00573 1.40373 6.31214 1.49271 7.38626 1.49271C8.46039 1.49271 10.7701 1.40702 11.7388 1.78931C12.3846 2.04637 12.8821 2.544 13.1424 3.19324C13.5279 4.16544 13.4389 6.47236 13.4389 7.54673C13.4389 8.62109 13.5279 10.9313 13.1424 11.9002Z" />
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-left">
+            <div class="theme-switch">
+              <button id="light2" class="theme-switch__btn">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10.9998 16.9584C14.2905 16.9584 16.9582 14.2907 16.9582 11C16.9582 7.70932 14.2905 5.04169 10.9998 5.04169C7.70914 5.04169 5.0415 7.70932 5.0415 11C5.0415 14.2907 7.70914 16.9584 10.9998 16.9584Z"
+                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M17.5452 17.545L17.426 17.4258M17.426 4.57415L17.5452 4.45498L17.426 4.57415ZM4.45516 17.545L4.57433 17.4258L4.45516 17.545ZM11.0002 1.90665V1.83331V1.90665ZM11.0002 20.1666V20.0933V20.1666ZM1.90683 11H1.8335H1.90683ZM20.1668 11H20.0935H20.1668ZM4.57433 4.57415L4.45516 4.45498L4.57433 4.57415Z"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+              <button id="dark2" class="theme-switch__btn active">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M1.86083 11.385C2.19083 16.1059 6.19667 19.9467 10.9908 20.1575C14.3733 20.3042 17.3983 18.7275 19.2133 16.2434C19.965 15.2259 19.5617 14.5475 18.3058 14.7767C17.6917 14.8867 17.0592 14.9325 16.3992 14.905C11.9167 14.7217 8.25 10.9725 8.23167 6.54503C8.2225 5.35336 8.47 4.22586 8.91917 3.19919C9.41417 2.06253 8.81833 1.52169 7.6725 2.00753C4.0425 3.53836 1.55833 7.19586 1.86083 11.385Z"
+                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+            <div class="site-language">
+              <button class="site-language__btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M8.0001 3H9.0001C7.0501 8.84 7.0501 15.16 9.0001 21H8.0001" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M15 3C16.95 8.84 16.95 15.16 15 21" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M3 16V15C8.84 16.95 15.16 16.95 21 15V16" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M3 8.99998C8.84 7.04998 15.16 7.04998 21 8.99998" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <span class="site-language__btn-text">EN</span>
+              </button>
+              <div class="site-language__drop">
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom-right">
+            <div class="project-balance">
+              <div class="project-balance__icon">
+                <img src="images/header-count.png" alt="count icon">
+              </div>
+              <div class="project-balance__number">
+                $8.072
+              </div>
+            </div>
+            <button class="gradient-btn">
+              <span class="gradient-btn__inner">
+                Buy
+                <span class="btn-icon">
+                  <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.3223 4.44751L15.8748 9.00001L11.3223 13.5525" stroke-width="1.5" stroke-miterlimit="10"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M3.125 9H15.7475" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

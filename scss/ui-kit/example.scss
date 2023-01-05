@@ -1,0 +1,75 @@
+
+@import "_reset.scss";
+
+
+@mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;  
+    color: #000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.demo-wrapper {
+    padding: 30px;
+}
+
+.demo-block {
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    &+.demo-block {
+        margin-top: 50px;
+    }
+    &__content {
+        margin-top: 30px;
+    }
+}
+
+.element {
+    margin-top: 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.form-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.button-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .button {
+        margin: 10px 20px 0 0;
+    }
+}
+* {
+    text-decoration: none;
+}
